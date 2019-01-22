@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "473238924320571422"; // ايدي السررفر
-var channel = "510071577753288704";//ايدي الروم
+var server = ""; // ايدي السررفر
+var channel = "4";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , HUSSAINxB , **')
     },305);
@@ -31,4 +31,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  });
 
  
-client.login(process.env.BOT_TOKEN);
+client.login("NTM3Mjc0ODIwNDUxMzY4OTYy.Dyi5Fw.1FNUkK77sLz829jzhDKwh8WSb58");
